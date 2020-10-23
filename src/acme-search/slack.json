@@ -1,0 +1,82 @@
+{
+    "slack": [
+      {
+        "id": "11",
+        "title": "alice",
+        "channel": "chatter",
+        "author": "alice",
+        "message": "Who's up for lunch right now?",
+        "timestamp": "2019-02-26 11:00:00",
+        "matching_terms": [
+          "alice",
+          "chatter",
+          "lunch"
+        ]
+      },
+      {
+        "id": "22",
+        "title": "bob",
+        "channel": "chatter",
+        "author": "bob",
+        "message": "I am up for lunch!",
+        "timestamp": "2019-02-26 11:00:01",
+        "matching_terms": [
+          "bob",
+          "chatter",
+          "lunch"
+        ]
+      },
+      {
+        "id": "33",
+        "title": "carol",
+        "channel": "chatter",
+        "author": "carol",
+        "message": "Me too @alice!",
+        "timestamp": "2019-02-26 11:00:02",
+        "matching_terms": [
+          "carol",
+          "chatter",
+          "alice"
+        ]
+      },
+      {
+        "id": "44",
+        "title": "alice",
+        "channel": "customer-chatter",
+        "author": "alice",
+        "message": "Did any of you meet with Acme folks last week?",
+        "timestamp": "2019-02-26 12:00:00",
+        "matching_terms": [
+          "alice",
+          "customer-chatter",
+          "acme"
+        ]
+      },
+      {
+        "id": "55",
+        "title": "dave",
+        "channel": "customer-chatter",
+        "author": "dave",
+        "message": "Yeah, I met with Bob there",
+        "timestamp": "2019-02-26 12:00:01",
+        "matching_terms": [
+          "dave",
+          "customer-chatter",
+          "bob"
+        ]
+      },
+      {
+        "id": "66",
+        "title": "dave",
+        "channel": "customer-chatter",
+        "author": "dave",
+        "message": "I think John from Acme was in that meeting too",
+        "timestamp": "2019-02-26 12:00:02",
+        "matching_terms": [
+          "dave",
+          "john",
+          "acme"
+        ]
+      }
+    ]
+  }
